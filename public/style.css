@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+}
+
+a {
+    color: #1446a3;
+}
+.banner {
+    background: #080808;
+    height: inherit;
+    width: inherit;
+    color: #878787;
+    /* border: 1px solid black; */
+    /* margin: 1rem; */
+}
