@@ -22,26 +22,26 @@ This is a **Node.js and Express.js** backend for an **E-commerce Web Application
     ├── style.css                # Main application file
 ├── 📁 src                  # Database and service logic
     ├── 📁 docs                 # Swagger API Documentation
-    │   ├── swagger-output.json
-    │   ├── swagger.js
-    ├── 📁 middleware           # API route handlers
-    │   ├── auth.js
-    ├── 📁 models               # API route handlers
-    │   ├── cart.js
-    │   ├── category.js
-    │   ├── item.js
-    │   ├── order.js
-    │   ├── user.js
+        ├── swagger-output.json
+        ├── swagger.js
+    ├── 📁 middleware           # Middlewares
+        ├── auth.js
+    ├── 📁 models               # Models for database
+        ├── cart.js
+        ├── category.js
+        ├── item.js
+        ├── order.js
+        ├── user.js
     ├── 📁 routes               # API route handlers
-    │   ├── cart.js
-    │   ├── item.js
-    │   ├── order.js
-    │   ├── user.js
+        ├── cart.js
+        ├── item.js
+        ├── order.js
+        ├── user.js
     ├── 📁 services             # Database and service logic
-    │   ├── mongoose.js
-    │   ├── paypal.js
+        ├── mongoose.js
+        ├── paypal.js
     ├── app.js              # Main application file
-├── .env.example            # Environment variables
+├── .env.example            # Environment variables template
 ├── .gitignore              # Git ignore file
 ├── package.json            # Dependencies and scripts
 ├── package-lock.json       # Dependencies and scripts
